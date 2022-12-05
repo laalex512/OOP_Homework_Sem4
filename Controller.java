@@ -2,6 +2,7 @@ package Homework4;
 
 import Homework4.services.TaskBook;
 import Homework4.tasks.Task;
+import Homework4.utils.ReadFromTxt;
 import Homework4.utils.WriteToTxt;
 
 public class Controller {
@@ -21,5 +22,6 @@ public class Controller {
 
 		System.out.println(book1);
 		new WriteToTxt().write(book1, "Homework4/book1.txt");
+		System.out.println(new ReadFromTxt().readBook("Homework4/book1.txt"));
 	}
 }

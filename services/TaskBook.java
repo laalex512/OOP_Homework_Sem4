@@ -16,6 +16,10 @@ public class TaskBook {
 
 	@Override
 	public String toString() {
-		return this.listTasks.toString();
+		StringBuilder sb = new StringBuilder();
+		for (Task i : this.listTasks){
+			sb.append(i + "\n");
+		}
+		return sb.toString();
 	}
 }

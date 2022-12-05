@@ -1,10 +1,8 @@
 package Homework4.tasks;
 
-import java.sql.Time;
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.Date;
-import javax.swing.plaf.nimbus.State;
+
 
 public class Task {
 	private int id;

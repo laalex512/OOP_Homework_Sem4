@@ -1,9 +1,6 @@
 package Homework4.utils;
 
 import Homework4.services.TaskBook;
-import Sem2.Data.Student;
-import Sem2.Data.Teacher;
-import Sem2.Data.User;
 import java.io.FileWriter;
 import java.io.IOException;
 
