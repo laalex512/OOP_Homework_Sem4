@@ -44,7 +44,7 @@ public class Task {
 		this(id, urgencyInt, firstName, lastName, LocalDate.now(), LocalTime.now());
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
